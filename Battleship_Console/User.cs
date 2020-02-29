@@ -40,7 +40,7 @@ namespace Battleship_Console
                 while (letter)
                 {                    
                     Console.SetCursorPosition(30, Space++);
-                    Console.Write("Your shot: ");
+                    Console.Write("Your shot: (letterindex) ");
                     switch (Console.Read())
                     {
                         
